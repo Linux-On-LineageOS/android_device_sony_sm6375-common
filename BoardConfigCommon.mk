@@ -176,3 +176,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Include the proprietary files BoardConfig.
 include vendor/sony/sm6375-common/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
